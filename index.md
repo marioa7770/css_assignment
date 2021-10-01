@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+# css_assignment
+After reading about CSS I am amazed by everything that It can be used for very basic document text styling,for example changing the color and size of headings and links.You can also created column layouts and animation.There are 3 ways of inserting a style sheet, "extenal CSS", "inline CSS", and "iternal CSS". With and external style sheet you can change the look of the whole page by changing one file. A internal style sheet may be used if one single html page has a unique style.An inline style may be used to apply a unique style for a single element. You can set the color using the following values HEX RGB RGBVA HSL and HSLA
 
-You can use the [editor on GitHub](https://github.com/marioa7770/css_assignment/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+In order to create CSS we have to tell an HTML document we have some CSS rule we would like it to use, the most usual and useful way of doing so is linking CSS from the head of your document. You will Create a file in the same folder as your HTML document and save it as styles.css. The .css extension shows that this is a CSS file
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+this is the code you would add to your "head" area on your HTML
+<link rel="stylesheet" href="styles.css">
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/marioa7770/css_assignment/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+The linke element tells the browser that we have a stylesheet rel attribute, and the location of that stylesheet as the value of the href attribute.
